@@ -1,0 +1,86 @@
+body{
+  background-image: url(https://ak.picdn.net/shutterstock/videos/5051264/thumb/1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.whole
+{
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  flex-flow: column;
+  
+}
+.container
+{
+  height: 600px;
+  width: 800px;
+  border-radius: 8rem;
+  border-width: 4px;
+  border-color:whitesmoke;
+  position: relative;
+  padding: 5px;
+  width: 400;
+  background-color:transparent;
+}
+
+.container h1{
+  align-content: left;
+  text-align: left;
+}
+#link
+{
+  border-radius: 10px 10px 10px 10px;
+  width: 330px;
+  height: 12px;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 5px solid #000000;
+  border-top: 0;
+  padding: 10PX 10px;
+  outline: none;
+  font-weight: bold;
+  font-size: 15px;
+
+}
+#but
+{
+  font-size: 20px;
+  height: 30px;
+  width: 100px;
+  font-weight: bolder;
+  border-color: black;
+  border-radius:5rem;
+}
+#but:hover
+{
+  background-color:blue;
+  cursor: pointer;
+}
+
+
+
+nav{
+  font-size: 2rem;
+  background-color:transparent;
+}
+nav ul{
+  list-style-type: none;
+  margin:0;
+  padding:0;
+  display: inline-flex;
+  justify-content: left;
+}
+
+
+.h a{
+	font-size: 25px;
+	font-weight:650;
+}
+
+.h a:hover{
+  cursor: pointer;
+  background-color: #555;
+  color: white;
+}
